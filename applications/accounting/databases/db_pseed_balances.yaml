@@ -1,0 +1,12 @@
+id: Qmec24a5dbd470e1520d8eded781321819886428e04a29b8
+description: Pseed balance and token economy state
+tags:
+    - pseed
+    - economics
+regex: false
+match: /pseed/balances
+local: false
+min: 1
+max: 3
+size: 500MB
+size-unit: MB

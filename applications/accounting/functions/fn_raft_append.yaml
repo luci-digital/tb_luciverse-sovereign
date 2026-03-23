@@ -1,0 +1,17 @@
+id: Qm69d3d6a7a5026fbcd2f7853462317ba06191787bad4c1d
+description: Append entry to Sovereign Raft ledger
+tags:
+    - raft
+    - ledger
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /api/v1/raft/append
+execution:
+    timeout: 30s
+    memory: 20MB
+    call: raft_append
+source: .
+domains:
+    - accounting_api

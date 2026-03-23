@@ -1,0 +1,7 @@
+id: Qm2383848786b3a75b1d2c7cf51ee5a956785e1525af56ca
+description: Accounting and Financial API domain
+tags:
+    - api
+fqdn: accounting.g.lucidigital.net
+certificate:
+    type: auto

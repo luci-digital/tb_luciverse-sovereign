@@ -1,0 +1,7 @@
+id: Qm1347db513fbb28e48fbdb43b6f832a83d6bbb881b7d2ef
+description: Sovereign Identity API domain
+tags:
+    - api
+fqdn: sovereign.g.lucidigital.net
+certificate:
+    type: auto

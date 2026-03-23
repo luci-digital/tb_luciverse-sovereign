@@ -1,0 +1,17 @@
+id: Qm2775c32ef27a15df6e8cea3d93f64f046eb304de5eb7bf
+description: Calculate Pseed value for agent contributions
+tags:
+    - pseed
+    - economics
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /api/v1/pseed/calculate
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: pseed_calculate
+source: .
+domains:
+    - accounting_api

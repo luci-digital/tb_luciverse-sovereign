@@ -1,0 +1,12 @@
+id: Qm0ccb50a1232a01521ac39d37ba34aea6fe916cc74f5ff9
+description: Sovereign Raft consensus ledger entries
+tags:
+    - raft
+    - ledger
+regex: false
+match: /raft/ledger
+local: false
+min: 1
+max: 3
+size: 1GB
+size-unit: GB

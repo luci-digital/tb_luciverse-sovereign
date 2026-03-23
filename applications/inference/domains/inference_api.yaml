@@ -1,0 +1,7 @@
+id: Qm5aaf5fe850dfcb5a6cd61c5922a0d464314af461f438fd
+description: AI Inference API domain
+tags:
+    - api
+fqdn: inference.g.lucidigital.net
+certificate:
+    type: auto

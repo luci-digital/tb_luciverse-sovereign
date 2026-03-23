@@ -1,0 +1,18 @@
+id: Qm2527ef97aab95c8d44349beb7c031a90ec7ed87a705f5f
+description: AI chat endpoint proxying to chatllm.cpp sidecar
+tags:
+    - ai
+    - chat
+    - llm
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /api/v1/chat
+execution:
+    timeout: 120s
+    memory: 50MB
+    call: llm_chat
+source: .
+domains:
+    - inference_api

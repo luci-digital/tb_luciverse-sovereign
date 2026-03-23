@@ -1,0 +1,18 @@
+id: Qmdbcc284784692e1276e23fbe1c7d334e30b63c73706ffa
+description: Create and manage invoices with Hedera HCS anchoring
+tags:
+    - invoice
+    - finance
+    - hcs
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /api/v1/invoices
+execution:
+    timeout: 30s
+    memory: 20MB
+    call: invoice_create
+source: .
+domains:
+    - accounting_api

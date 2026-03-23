@@ -1,0 +1,8 @@
+id: Qm98a25021af5f4ad7deefc4d52c2605a4348e7967bfd2c2
+description: Raft consensus events for ledger synchronization
+tags:
+    - raft
+    - consensus
+    - pubsub
+channel: /events/raft/consensus
+local: false

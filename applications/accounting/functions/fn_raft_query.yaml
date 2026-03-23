@@ -1,0 +1,17 @@
+id: Qm6b12275e58fa07c0adb320cccc7638fe4ef63eac5a7414
+description: Query Sovereign Raft ledger
+tags:
+    - raft
+    - query
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/v1/raft/query
+execution:
+    timeout: 15s
+    memory: 10MB
+    call: raft_query
+source: .
+domains:
+    - accounting_api

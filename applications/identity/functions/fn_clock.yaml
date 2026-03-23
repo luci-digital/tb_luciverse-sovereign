@@ -1,0 +1,17 @@
+id: Qmbe127ef20f3df0ad9beae33727e06ca3113451c2c8bffc
+description: LuciClock whole-number lunar time
+tags:
+    - clock
+    - luciclock
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/v1/clock
+execution:
+    timeout: 5s
+    memory: 5MB
+    call: luciclock
+source: .
+domains:
+    - sovereign_api

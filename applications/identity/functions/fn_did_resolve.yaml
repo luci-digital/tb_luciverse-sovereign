@@ -1,0 +1,17 @@
+id: Qm956de799fe0906939718fcbd4b8df27ca1efc3b8b4740e
+description: Resolve W3C DID document
+tags:
+    - identity
+    - did
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/v1/did/{uri}
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: did_resolve
+source: .
+domains:
+    - sovereign_api

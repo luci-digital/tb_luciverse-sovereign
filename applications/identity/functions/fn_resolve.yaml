@@ -1,0 +1,17 @@
+id: Qmb353f407e9b8d3fea3dac46616212fc3ff4de67b3a726d
+description: Resolve identity by slug or DID URI
+tags:
+    - identity
+    - resolve
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/v1/identity/resolve/{slug}
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: identity_resolve
+source: .
+domains:
+    - sovereign_api
